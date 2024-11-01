@@ -9,9 +9,21 @@
   font-size:15px;
   background-color: white;
   border: none;
+  text-decoration: none;
+  color:black
 }
 #button:hover{
   font-size:20px;
   cursor: pointer;
+  text-decoration: underline;
+}
+.home-button-in-homepage , .politic-in-politics-page,
+.health-in-health-page , .ent-in-ent-page
+, .buss-in-buss-page{ 
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
   text-decoration: underline;
 }

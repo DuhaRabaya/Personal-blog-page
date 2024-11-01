@@ -1,0 +1,28 @@
+.postcontent{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.author{
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  border: 3px solid black;
+  margin-right: 3px;
+  height: 100%;
+}
+.author_avatar{
+  width:40px;
+  margin:10px;
+  border-radius: 100%;
+}
+.auther_info{
+  margin:10px;
+}
+.article_info{
+  display:flex;
+  flex-direction: column;
+}
+figcaption{
+  align-self: center;
+}

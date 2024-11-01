@@ -13,6 +13,9 @@
   height:40px;
   border-radius: 150px;
 }
+.search-img{
+  height: 20px;
+}
 .search_icon:hover{
   background-color: rgb(211, 219, 219);
   cursor:pointer;
