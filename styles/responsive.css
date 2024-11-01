@@ -6,6 +6,30 @@
   .title{
     font-size: 25px;
   }
+  .postcontent{
+    display: grid;
+    gap: 30px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100%;
+    grid-template-areas:
+     "au"
+     "ai";
+  }
+  .author{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border: 3px solid black;
+    grid-area:au;
+    margin-bottom:10px;
+  }
+  .article_info{
+    grid-area:ai;
+    display:flex;
+    flex-direction: column;
+
+  }
 }
 @media(min-width: 501px ) and (max-width: 799px){
   .articles{

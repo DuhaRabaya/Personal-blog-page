@@ -1,6 +1,9 @@
+@import "responsive.css";
+
 .postcontent{
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-areas: "au ai";
 }
 .author{
   padding:10px;
@@ -10,7 +13,9 @@
   border: 3px solid black;
   margin-right: 3px;
   height: 100%;
+  grid-area: au;
 }
+
 .author_avatar{
   width:40px;
   margin:10px;
@@ -22,7 +27,16 @@
 .article_info{
   display:flex;
   flex-direction: column;
+  grid-area: ai;
 }
 figcaption{
   align-self: center;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post_image{
+  width:100%;
 }
