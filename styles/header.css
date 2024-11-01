@@ -1,0 +1,43 @@
+
+.header{
+  font-size:40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.search_icon{
+  background-color: white;
+  margin-right:20px;
+  width: 40px;
+  height:40px;
+  border-radius: 150px;
+}
+.search_icon:hover{
+  background-color: rgb(211, 219, 219);
+  cursor:pointer;
+}
+.search-img:hover{
+  background-color: rgb(211, 219, 219);
+}
+.subscribe_button{
+  width:100px;
+  height:25px;
+  margin-left:20px;
+  background-color: rgb(211, 20, 20);
+  color:white;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.subscribe_button:hover{
+  opacity: 0.7;
+}
+.subscribe_button:active{
+  opacity: 0.3;
+ }
+.title{
+  text-decoration: underline;
+}

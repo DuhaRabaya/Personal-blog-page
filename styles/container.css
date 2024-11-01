@@ -1,0 +1,21 @@
+.container{
+  display: grid;
+  grid-template-rows: 100px 50px auto 100px;
+  grid-template-areas:
+  "hd"
+  "sb"
+  "ct"
+  "ft";
+}
+.header{
+  grid-area:hd;
+}
+.sidebar{
+  grid-area:sb;
+}
+.articles{
+  grid-area:ct;
+}
+.footer{
+  grid-area: ft;
+}

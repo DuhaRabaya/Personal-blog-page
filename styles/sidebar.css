@@ -1,0 +1,17 @@
+.sidebar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid black;
+  margin-bottom:10px;
+}
+#button{
+  font-size:15px;
+  background-color: white;
+  border: none;
+}
+#button:hover{
+  font-size:20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
